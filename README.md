@@ -7,6 +7,10 @@ left on Yelp. Due to the limation in size, all the data set cannot be uploaded. 
 the [Yelp Data Set](https://www.yelp.com/dataset). The content below will provide a workflow about how to recur the build
 of our system.
 
+## Data
+Please refer to the following Google Drive link for all the data used in this project.
+[Google Drive link](https://drive.google.com/drive/folders/1CXQdXnkDwgQBnfxw2PqHGGriX9qVOiIO?usp=sharing)
+
 ## Data Selection
 This project mainly works with the three data sets: business, reviews, and users. These data sets are in .json format 
 can be accessed in 
