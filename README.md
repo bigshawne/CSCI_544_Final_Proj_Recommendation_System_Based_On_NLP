@@ -60,3 +60,14 @@ python word_embedding.py
 ### BERT Embedding
 The '**bert_prep.ipynb**' jupyter notebook perform the BERT embedding. The inputs of '**bert_prep.ipynb**' are two revised data files: '**lemma_train.json**', '**lemma_test.json**', '**review_info.json**', 
 **'review_text.json**' (or no_lemma_train.json, no_lemma_test.json)
+
+## Item CF
+
+### Convert word embedding from json to txt for Word_vec2Sent_vec.ipynb
+Run the following files to prepare the inputs for next steps
+'**GloVe/input/reformat.ipynb**'
+'**Google/input/reformat.ipynb**'
+'**Own_model/input/reformat.ipynb**'
+
+
+
