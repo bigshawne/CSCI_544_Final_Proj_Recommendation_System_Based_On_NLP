@@ -69,5 +69,8 @@ Run the following files to prepare the inputs for next steps
 '**Google/input/reformat.ipynb**'
 '**Own_Model/input/reformat.ipynb**'
 
-
-
+### Convert Word embedding to Sentence embedding
+Run the following file to embed sentences to vectors.
+Remark: Should have word embedding files in corresponding model/input folder ready.
+Remark: Should have models.py downloaded in the same folder. (models.py is the FaceBook InferSent class)
+'**Word_vec2Sent_vec.ipynb**'
