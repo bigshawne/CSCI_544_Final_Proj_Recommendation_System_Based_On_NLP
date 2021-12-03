@@ -8,7 +8,7 @@ the [Yelp Data Set](https://www.yelp.com/dataset). The content below will provid
 of our system.
 
 ## Data
-Please refer to the following Google Drive link for all the data used in this project.
+Please refer to the following Google Drive link for all the data used in this project. \n
 [Google Drive link](https://drive.google.com/drive/folders/1CXQdXnkDwgQBnfxw2PqHGGriX9qVOiIO?usp=sharing)
 
 ## Data Selection
