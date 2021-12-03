@@ -53,8 +53,9 @@ models: 'glove-wiki-gigaword-300' and 'word2vec-google-news-300'.'gensim' also a
 embedding with our data set.
 
 By running the following CLI, it will generate the word2vec embedding based on the 'glove-wiki-gigaword-300'.
-
-
+```commandline
+python word_embedding.py
+```
 
 ### BERT Embedding
 The '**bert_prep.ipynb**' jupyter notebook perform the BERT embedding. The inputs of '**bert_prep.ipynb**' are two revised data files: '**lemma_train.json**', '**lemma_test.json**', '**review_info.json**', 
