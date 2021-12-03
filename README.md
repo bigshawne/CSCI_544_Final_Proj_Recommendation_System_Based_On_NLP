@@ -67,7 +67,7 @@ The '**bert_prep.ipynb**' jupyter notebook perform the BERT embedding. The input
 Run the following files to prepare the inputs for next steps
 '**GloVe/input/reformat.ipynb**'
 '**Google/input/reformat.ipynb**'
-'**Own_model/input/reformat.ipynb**'
+'**Own_Model/input/reformat.ipynb**'
 
 
 
