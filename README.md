@@ -48,4 +48,14 @@ python train_test_split.py
 In this project, we use word2vec model to do word level embedding, and BERT for sentence level embedding.
 
 ### Word2Vec Embedding
+For the Word2Vec Embedding, we mainly work with the 'gensim' package from python. We applied two pretrained word embedding
+models: 'glove-wiki-gigaword-300' and 'word2vec-google-news-300'.'gensim' also allows us to train our own word2vec 
+embedding with our data set.
 
+By running the following CLI, it will generate the word2vec embedding based on the 'glove-wiki-gigaword-300'.
+
+
+
+### BERT Embedding
+The '**bert_prep.ipynb**' jupyter notebook perform the BERT embedding. The inputs of '**bert_prep.ipynb**' are two revised data files: '**lemma_train.json**', '**lemma_test.json**', '**review_info.json**', 
+**'review_text.json**' (or no_lemma_train.json, no_lemma_test.json)
