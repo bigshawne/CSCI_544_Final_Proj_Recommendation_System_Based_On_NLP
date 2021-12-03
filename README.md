@@ -84,7 +84,7 @@ mode choice: 1 for with lemma, 2 for without lemma
 model choice: Bert, GloVe, Google, Own, Own200
 Remark: Should have sentence embedding json in corresponding folder
 
-# Original Item CF model
+### Original Item CF model
 Run the following CLI to train the original item CF model
 ```commandline
  python item_CF.py
