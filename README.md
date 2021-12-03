@@ -74,3 +74,30 @@ Run the following file to embed sentences to vectors.
 Remark: Should have word embedding files in corresponding model/input folder ready.
 Remark: Should have models.py downloaded in the same folder. (models.py is the FaceBook InferSent class)
 '**Word_vec2Sent_vec.ipynb**'
+
+### Generate similarity dictionary between reviews
+Run the following CLI to generate similarity dictionary.
+```commandline
+python gen_test_sim2.py {mode} {model}
+```
+mode choice: 1 for with lemma, 2 for without lemma
+model choice: Bert, GloVe, Google, Own, Own200
+Remark: Should have sentence embedding json in corresponding folder
+
+# Original Item CF model
+Run the following CLI to train the original item CF model
+```commandline
+ python item_CF.py
+```
+Remark: Should have review_info.json in revised_data folder ready.
+Remark: RMSE is directly printed
+
+### Item CF with reviews involved
+Run the following CLI to train the item CF with review model
+```commandline
+ python item_CF_w_review.py {mode} {model}
+```
+mode choice: 1 for with lemma, 2 for without lemma
+model choice: Bert, GloVe, Google, Own, Own200
+Remark: mode and model specify which model embedding will be used for item_CF_w_review.py and should have corresponding files in embed_sim folder. If there is no such file error, run gen_test_sim2.py first.
+Remark: RMSE is directly printed
